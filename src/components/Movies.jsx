@@ -6,7 +6,7 @@ const Movies = (props) => {
     return (
         <div className="movies">
             {movies.map(movie => {
-                return <Movie key={movie.imdbID} {...movie}/>
+                return <Movie key={movie.imdbIb} {...movie}/>
             })}
         </div>
     )
