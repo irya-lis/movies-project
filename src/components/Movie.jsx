@@ -12,7 +12,7 @@ const Movie = (props) => {
     return (
         <div id={id} className="card">
             <div className="card-image waves-effect waves-block waves-light">
-                {poster === "N/A" ? <img className="activator" src={`https://placehold.co/420x660?text=${title}`}/>
+                {poster === "N/A" ? <img className="activator" src={`https://placehold.co/420x60?text=${title}`}/>
                     : <img className="activator" src={poster}/>}
             </div>
             <div className="card-content">
