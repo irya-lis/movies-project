@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    background-color: #3e4f4f;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -24,4 +25,15 @@ nav {
 
 img{
     height: 400px;
+}
+
+.search-btn {
+    position: absolute;
+    top: 0;
+    right: 0.5rem;
+    margin-top: 4px;
+}
+
+label:not(:last-child) {
+    margin-right: 2rem;
 }
